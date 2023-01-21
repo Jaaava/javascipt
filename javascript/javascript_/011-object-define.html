@@ -5,16 +5,37 @@
     <title>定义对象</title>
     <script type="text/javascript">
         //创建对象方式1
-        var student = new Object();
-        student.name = "张三";
-        student.age = 20;
-        student.study = function (a,b) {
-            return a + b;
+        // var student = new Object();
+        // student.name = "张三";
+        // student.age = 20;
+        // student.study = function (a,b) {
+        //     return a + b;
+        // }
+        //
+        // alert(student.study(2,3));
+        // alert(student.name);
+        // alert(student.age);
+
+        //创建对象方式2
+        var student = {
+            name: "李四",
+            gender: true,
+            age: 22,
+
+            calculate:function(a,b){
+                return a - b;
+            },
+
+            speech:function () {
+                return "我们遇到什么困难都不要放弃";
+            }
         }
 
-        alert(student.study(2,3));
         alert(student.name);
         alert(student.age);
+        alert(student.gender);
+        alert(student.calculate(2,5));
+        alert(student.speech());
     </script>
 </head>
 <body>
