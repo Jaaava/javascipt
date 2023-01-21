@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>函数细节</title>
+    <script type="text/javascript">
+        //js中函数重载会覆盖掉上一次的定义
+        function f1() {
+            alert("hello world");
+        }
+
+        function f1(name) {
+            alert("hello " + name);
+        }
+    </script>
+</head>
+<body>
+    <button onclick="f1()">点击</button>
+</body>
+</html>

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>函数细节</title>
+    <script type="text/javascript">
+        //函数的隐式调用
+        function fun1() {
+            alert("fun1....")
+            //alert("arguments = " + arguments);
+            // for (var i = 0;i < arguments.length;i++){
+            //     alert(arguments[i]);
+            // }
+            //或者使用下面的方式
+            //有参数的话fun(var1)，传入参数会按照形参列表顺序接收
+            //超过的不接受，arguments都接收
+            console.log("arguments = ",arguments);
+        }
+
+        fun1("hello",1);
+    </script>
+</head>
+<body>
+
+</body>
+</html>
