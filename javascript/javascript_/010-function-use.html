@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>函数进阶</title>
+    <script type="text/javascript">
+        //第一种方式定义函数
+        //带参函数
+        // function f1(name) {
+        //     alert("f1()被" + name + "调用");
+        // }
+        //
+        // f1("oliver");
+        //
+        // function sum(num1,num2) {
+        //     alert("num1 + num2 = " + (num1 + num2));
+        // }
+        //
+
+
+        //第二种方式定义函数，用变量接收
+        var function1 = function (time) {
+            alert("现在是:" + time)
+        }
+
+        //这里是重点，多练几次才行                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             
+        var f3 = function1(time);
+    </script>
+</head>
+<body>
+    <!--<button onclick="sum(2,3)">计算</button>-->
+    <button onclick= function1('2023年1月')>时间查看</button>
+    <button onclick= f3()>时间查看</button>
+</body>
+</html>
