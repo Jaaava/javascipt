@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>函数练习</title>
+    <script type="text/javascript">
+        function especialSum() {
+            var result = 0;
+            for (var i = 0; i < arguments.length; i++) {
+                if (typeof arguments[i] != "number") {
+                    alert("参数不是number类型");
+                    break;
+                } else {
+                    result += arguments[i];
+                }
+            }
+            return "result = " + result;
+        }
+
+        alert(especialSum(10, 22, 33, 22));
+    </script>
+</head>
+<body>
+
+</body>
+</html>
