@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>点击事件</title>
+    <script type="text/javascript">
+        //静态绑定
+        // function Yes() {
+        //     alert("yes");
+        // }
+        //
+        // function Wrong() {
+        //     alert("wrong");
+        // }
+
+        //btn01需要放在这里拿是因为需要完成页面加载完成才拿的到对象
+        window.onload = function () {
+            var btn01 = document.getElementById("btn01");
+            alert(btn01);
+            btn01.onclick = function Wrong() {
+                alert("你好");
+            }
+        }
+
+    </script>
+</head>
+<body>
+   <!-- <button onclick="Yes()">正确</button><br/>-->
+    <button id="btn01" onclick="Wrong()">错误</button>
+</body>
+</html>
