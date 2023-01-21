@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>加载事件</title>
+    <script type="text/javascript">
+        function sayOk() {
+            alert("静态注册onload事件，打印ok");
+        }
+
+        //第二种方式，window页面窗口
+        // window.onload = sayOk();
+        window.onload = function () {
+            alert("动态注册onload事件，打印ok");
+        }
+    </script>
+</head>
+<!--一种方式：静态注册-->
+<!--<body onload="sayOk()">-->
+<body>
+    hello!
+    <!--hello是在窗口完成才展示的，先有window.onload-->
+</body>
+</html>
