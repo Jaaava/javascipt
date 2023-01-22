@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>失去焦点事件</title>
+    <script type="text/javascript">
+        //静态绑定
+        function toUpperCase(){
+            var input1 = document.getElementById("input1");
+            input1.value = input1.value.toUpperCase();
+        }
+
+        //动态绑定
+        window.onload = function () {
+            var input2 = document.getElementById("input2");
+            input2.onblur = function () {
+                input2.value = input2.value.toUpperCase();
+            }
+        }
+    </script>
+</head>
+<body>
+    转换后英文单词：<input id="input1" onblur="toUpperCase()"><br/>
+    转换后英文单词：<input id="input2">
+</body>
+</html>

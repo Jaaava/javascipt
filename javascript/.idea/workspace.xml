@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="de2b6696-4ff6-42f5-86d4-5c8545013f20" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/javascript_/013-onclick-event.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript_/014-onblur-event.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +53,8 @@
       <option name="presentableId" value="Default" />
       <updated>1674214349722</updated>
       <workItem from="1674214351038" duration="5790000" />
-      <workItem from="1674264732076" duration="11663000" />
+      <workItem from="1674264732076" duration="13721000" />
+      <workItem from="1674347398944" duration="652000" />
     </task>
     <servers />
   </component>
@@ -61,10 +62,10 @@
     <option name="version" value="2" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="425" y="187" key="run.anything.popup" timestamp="1674285141038">
+    <state x="425" y="187" key="run.anything.popup" timestamp="1674292430605">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="425" y="187" key="run.anything.popup/0.0.1536.824/1920.0.2560.1400@0.0.1536.824" timestamp="1674285141038" />
+    <state x="425" y="187" key="run.anything.popup/0.0.1536.824/1920.0.2560.1400@0.0.1536.824" timestamp="1674292430605" />
     <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1674289348800">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -76,7 +77,6 @@
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/javascript_/010-fun-lx.html</url>
           <line>8</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
