@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>内容改变事件</title>
+    <script type="text/javascript">
+        //静态绑定
+        function mySal() {
+            alert("工资范围变化了");
+        }
+
+        //动态绑定
+        window.onload = function () {
+            var element = document.getElementById("selects");
+            element.onchange = function () {
+                alert("换女朋友了")
+            }
+        }
+    </script>
+</head>
+<body>
+    <select onchange="mySal()">
+        <option >工资范围</option>
+        <option>10k以下</option>
+        <option>10k-30k</option>
+        <option>30k-40k</option>
+    </select>
+    <br>
+    <select id="selects">
+        <option >女友</option>
+        <option>小花</option>
+        <option>baby</option>
+        <option>3铁锤</option>
+    </select>
+</body>
+</html>
